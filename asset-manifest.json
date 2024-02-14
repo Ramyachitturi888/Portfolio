@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/portfolio/static/js/main.919af7cc.js",
+    "static/media/HeroImage.png": "/portfolio/static/media/HeroImage.f8fa2fb6e6103793442b.png",
+    "static/media/PES.png": "/portfolio/static/media/PES.c493db995635c6b2ee66.png",
+    "static/media/Informatica.png": "/portfolio/static/media/Informatica.7007ecc9c227cbb6edbd.png",
+    "index.html": "/portfolio/index.html",
+    "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
+    "main.919af7cc.js.map": "/portfolio/static/js/main.919af7cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.919af7cc.js"
+  ]
+}
