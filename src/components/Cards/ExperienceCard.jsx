@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Informatica from '../../images/Informatica.png'
+
 
 const Document = styled.img`
     display: none;
@@ -75,7 +77,7 @@ const Top = styled.div`
     gap: 12px
 `
 
-const Image = styled.img`
+const Img = styled.img`
     height: 50px;
     background-color: #000;
     border-radius: 10px;
@@ -148,7 +150,7 @@ const ExperienceCard = ({ experience }) => {
     return (
         <Card>
             <Top>
-                <Image src={experience.img} />
+            <Img src={Informatica} alt="Informatica-image" />
                 <Body>
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>

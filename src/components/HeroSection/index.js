@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from '../../images/HeroImage.jpg'
+import HeroImg from '../../images/HeroImage.png'
 import { Bio } from '../../data/constants';
 import HeroBgAnimation from '../HeroBgAnimation';
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, SubTitle, ResumeButton } from './HeroStyle';

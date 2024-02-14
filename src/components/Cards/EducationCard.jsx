@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import PES from '../../images/PES.png'
 
 const Document = styled.img`
     display: none;
@@ -73,7 +74,7 @@ const Top = styled.div`
     gap: 12px
 `
 
-const Image = styled.img`
+const Img = styled.img`
     height: 50px;
     background-color: #000;
     border-radius: 10px;
@@ -132,7 +133,7 @@ const EducationCard = ({ education }) => {
     return (
         <Card>
             <Top>
-                <Image src={education.img} />
+            <Img src={PES} alt="PES-image" />
                 <Body>
                     <Name>{education.school}</Name>
                     <Degree>{education.degree}</Degree>

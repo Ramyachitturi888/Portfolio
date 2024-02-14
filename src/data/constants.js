@@ -1,5 +1,5 @@
 export const Bio={
-    name:"Ramya CHitturi",
+    name:"Ramya Chitturi",
     roles:[
         "Full Stack Developer",
         "Backed Developer",
@@ -7,9 +7,9 @@ export const Bio={
     ],
     description:
      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github:"https://github.com/Ramya-ch-cloud",
+    github:"https://github.com/Ramyachitturi888",
     resume:
-    "https://drive.google.com/file/d/1CgUGPsSg7h1xmS9RXKM0k0uRVsJvF1VW/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Tg7zftMFZCxQcOAZcJBMjlZBwOJn8ktO/view?usp=drive_link",
     linkedin:"linkedin.com/in/ramya-chitturi-884023139",
 };
 
@@ -148,18 +148,22 @@ export const experiences = [
     {
       id: 0,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
-      date: "June 2023 - Nov 2023",
-      desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+      role: "Senior Software Engineer",
+      company: "Informatica",
+      date: "Sep 2022 - Nov 2023",
+      desc: "Redesigned and developed a Lineage calculation, significantly improving its performance by achieving a 60% faster execution compared to the existing implementation, even with millions of records.Actively involved in Analysis, Design, Development, System Testing and User Acceptance Testing. ● Developed the application using Java 8 and implemented its features like lambda Expressions, Streams, functional interfaces, collectors, default methods, type interfaces, for each.Used a multithreaded environment to run processes asynchronously using different future calls to access the data.Spring Boot MicroServices were developed using Microservices architecture with RESTFUL and Apache Kafka. Worked on Spark and ElasticSearch for DPM data loading and Lineage calculation. Used Maven is used for build scripts and configured log4j, log files. Involved in System Testing, Integration Testing, and Production Testing on WebLogic Server. ",
       skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "Java",
+        "Spring boot",
+        "Spring MVC",
+        "Java Scripts",
+        "Rest API",
+        "MongoDB",
+        "SQL",
+        "Spark",
+        "Elasticsearch",
+        "Docker",
+
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
     },
@@ -168,7 +172,8 @@ export const experiences = [
 export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: 
+      "https://drive.google.com/file/d/1BDyYDujYmrsSFmGJa3Z0g7RnL2eCoElZ/view?usp=drive_link",
       school: "PES Institute of Technology, Bangalore",
       date: "Sep 2016 - Apr 2018",
       grade: "8.0 CGPA",
