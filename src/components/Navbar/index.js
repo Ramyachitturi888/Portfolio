@@ -1,9 +1,10 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
-// import { DiCssdeck } from 'react-icons/di';
+import { Nav, NavLink, NavbarContainer, NavLogo, NavItems, GitHubButton, ButtonContainer, Span,MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
+import { Button } from 'react-scroll';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -12,9 +13,9 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-        {/* <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+        <Button style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer',border: 'none',background: 'transparent' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a> */}
+          </Button>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
