@@ -15,14 +15,12 @@ export const Herosection=()=>{
        <HeroLeftContainer id="Left">
        <Title> Hi, I am <br/> {Bio.name}</Title>
        <TextLoop>
-       I am a <span>
        <typewriter options={{
         strings:Bio.roles,
         autoStart:true,
         loop:true,
        }}
        />
-       </span>
        </TextLoop>
        <SubTitle>{Bio.description}</SubTitle>
        <ResumeButton href={Bio.resume} target='display'> Check Resume</ResumeButton>
